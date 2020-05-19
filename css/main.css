@@ -49,10 +49,70 @@ header {
     height: 800px;
     background-image: url('../img/hero-image.png');
     background-size: cover;
-    text-align: center;
-    padding-top: 100px;
 }
 
+.intro {
+    width: 800px;
+    text-align: center;
+    padding: 300px 200px 200px;
+}
 header p {
     font-size: 48px;
+}
+
+
+/***** PORTFOLIO *****/
+
+.portfolio h2 {
+    margin: 40px 0;
+}
+
+.rogue, .jubilee, .recipe {
+    padding: 25px 0;
+}
+
+.info h3 {
+    margin: 0 auto;
+
+}
+
+.p1 {
+    margin: 0;
+    line-height: 40px;
+}
+
+.image img {
+    width: 548px;
+    border: 1px solid #b7b7b7;
+    box-sizing: border-box;
+}
+
+/***** ABOUT *****/
+
+.about {
+    background-color: #46959e;
+    background-size: cover;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.about h2 {
+    padding-top: 50px;
+    margin: 40px 0;
+}
+
+.about .full-width {
+    padding: 50px 0 100px;
+}
+
+.me h3 {
+    margin: 0;
+}
+
+/***** CONNECT *****/
+
+.contact {
+    background-color: #095156;
+    background-size: cover;
+    color: #ffffff;
 }
