@@ -10,8 +10,6 @@ body {
 h1 {
     font-family: 'Roboto Slab', serif;
     color: #bdbf09;
-    font-size: 60px;
-
 }
 
 h2 {
@@ -39,7 +37,7 @@ h3 {
 }
 
 .third-width {
-    width: 600px;
+    width: 400px;
     float: left;
 }
 
@@ -49,6 +47,10 @@ header {
     height: 800px;
     background-image: url('../img/hero-image.png');
     background-size: cover;
+}
+
+header h1 {
+    font-size: 60px;
 }
 
 .intro {
@@ -115,4 +117,41 @@ header p {
     background-color: #095156;
     background-size: cover;
     color: #ffffff;
+}
+
+.third-width {
+    text-align: center;
+}
+
+#hire p {
+    margin: 0;
+}
+
+#hire a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#follow ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 40px;
+    margin: 0;
+}
+
+#follow ul li {
+    display: inline-block;
+}
+
+#follow ul img {
+    height: 50px;
+    width: 50px;
+    padding-left: 40px;
+}
+
+#copyright {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+    word-spacing: 5px;
 }
